@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 255, 227);
+  }
+  
+  header {
+    background-color: #111518;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .image {
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+
+  .Abt{
+    padding: 2rem;
+    font-family:  ' sans-serif';
+    
+  }
+  
+
+
+
+  /* Responsive styles for mobile devices */
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 0.5rem;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 0.5rem;
+  }
+}
